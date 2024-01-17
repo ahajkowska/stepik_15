@@ -37,3 +37,5 @@ print(sum)
 ~~~
 
 Oto kod programu zagnieżdżony w tekście `print("Hello")`, ok?
+
+![kot.jpg](kot.jpg)
