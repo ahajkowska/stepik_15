@@ -35,3 +35,5 @@ num2 = 2
 sum = num1 + num2
 print(sum)
 ~~~
+
+Oto kod programu zagnieżdżony w tekście `print("Hello")`, ok?
