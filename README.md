@@ -13,12 +13,12 @@ Trzeci paragraf
 
 Lista numeryczna
 1. jeden
-   - jeden i pół
+   1. jeden i pół
 3. dwa
-   - dwa i pół
-   - dwa i drugie pół
+   1. dwa i pół
+   2. dwa i drugie pół
 5. trzy
-   - trzy i pół
+   1. trzy i pół
 
 Lista nienumeryczna
 - jeden
