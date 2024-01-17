@@ -29,3 +29,9 @@ Lista nienumeryczna
 - trzy
    - trzy i pół
 
+~~~
+num1 = 1
+num2 = 2
+sum = num1 + num2
+print(sum)
+~~~
