@@ -1,15 +1,15 @@
 # Powiększony nagłówek
 
-Pierwszy paragraf
+##Pierwszy paragraf
 
 ~~przekreślenie~~
 **pogrubienie**
 *kursywa*
 >cytat
 
-Drugi paragraf
+##Drugi paragraf
 
-Trzeci paragraf
+##Trzeci paragraf
 
 Lista numeryczna
 1. jeden
