@@ -1,4 +1,4 @@
-name: Build and Test
+name: Uruchom Testy
 
 on:
   push:
@@ -6,21 +6,21 @@ on:
       - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repozytorium
       uses: actions/checkout@v2
 
-    - name: Set up Python
+    - name: Skonfiguruj Python
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
 
-    - name: Install dependencies
+    - name: Zainstaluj zależności
       run: |
-        pip install -r wymagania.txt
+        pip install -r requirements.txt
 
-    - name: Run tests
+    - name: Uruchom testy
       run: pytest
