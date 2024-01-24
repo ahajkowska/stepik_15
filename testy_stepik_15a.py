@@ -1,15 +1,9 @@
-import unittest
 from stepik_15a import iloczyn, suma
 
-class TestFunctions(unittest.TestCase):
-    def test_iloczyn(self):
-        result = iloczyn(2, 3)
-        self.assertEqual(result, 6)
+def test_iloczyn():
+    result = iloczyn(2, 3)
+    assert result == 6
 
-    def test_suma(self):
-        result = suma(2, 3)
-        self.assertEqual(result, 5)
-
-if __name__ == '__main__':
-    unittest.main()
-
+def test_suma():
+    result = suma(2, 3)
+    assert result == 5
