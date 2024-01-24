@@ -1,19 +1,24 @@
-name: Test python files
+name: Build and Test
+
 on:
   push:
     branches:
       - main
+
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Check repo
+    - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Python set up
+
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-    - name: Install pip
+
+    - name: Install dependencies
       run: |
         pip install -r wymagania.txt
 
