@@ -15,7 +15,7 @@ jobs:
         python-version: 3.8
     - name: Install pip
       run: |
-        pip install -r requirements.txt
+        pip install -r wymagania.txt
 
     - name: Run tests
       run: pytest
